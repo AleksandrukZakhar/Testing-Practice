@@ -32,12 +32,10 @@ const encrypt = (str, shift) => {
   let newStr = "";
 
   for (let i = 0; i < str.length; i++) {
-    newStr += letters[letters.findIndex((el) => el === arr[i]) + shift];
+    newStr += letters[(letters.findIndex((el) => el === arr[i]) + shift) % 26];
   }
 
   return newStr;
 };
-
-console.log(encrypt("z", 1));
 
 module.exports = encrypt;
