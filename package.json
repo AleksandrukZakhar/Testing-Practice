@@ -1,0 +1,11 @@
+{
+  "name": "Testing-Practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AleksandrukZakhar/Testing-Practice.git",
+  "author": "AleksandrukZakhar <zakharaleksandrukdev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
