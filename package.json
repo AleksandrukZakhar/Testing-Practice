@@ -5,6 +5,9 @@
   "repository": "git@github.com:AleksandrukZakhar/Testing-Practice.git",
   "author": "AleksandrukZakhar <zakharaleksandrukdev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "jest": "^29.0.3"
   }
